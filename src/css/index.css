@@ -1,0 +1,100 @@
+body {
+    font-family: "Calibri", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #363636;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #99cc00;
+}
+
+.main {
+    margin-left: 250px; /* Same as the width of the sidenav */
+	width: 80%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.new-time-button {
+	padding: 6px 6px 32px 6px;
+}
+
+.color-orange {
+	background-color: #ff6600;
+	color: #ffffff;
+	border: none;
+}
+
+.color-orange:hover {
+	background-color: #ff6600;
+	color: #ffffff;
+	border: none;
+}
+
+.color-orange:visited  {
+	background-color: #ff6600;
+	color: #ffffff;
+	border: none;
+}
+
+.top-bar {
+	padding: 6px 6px 6px 6px;
+}
+
+.tool-bar {
+	padding: 6px 6px 6px 6px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.report-cell {
+	text-align: center;
+}
+
+.sheet-head {
+	padding-bottom: 12px;
+}
+
+input.ng-invalid {
+	border: 1px red solid;
+	background-color: pink;
+}
+
+.border-left-0 {
+	border-left: none;
+}
+
+.border-right-0 {
+	border-right: none;
+}
+
+.no-color {
+	background-color: #ffffff
+}
+
+.title-padding-bottom {
+	padding-bottom: 5px;
+}
